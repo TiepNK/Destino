@@ -1,0 +1,277 @@
+.frg-header-wap{
+	height: 960px;
+	background: url("../img/bg-header.jpg") no-repeat;
+	padding: 180px;
+	background-size: cover;
+}
+.frg-header-wap .head-intro{
+	text-align: center;
+}
+.frg-header-wap .head-intro .frg-header-tim{
+	margin-bottom: 50px;
+}
+.frg-header-wap .head-intro .frg-header-logo{
+	margin-bottom: 38px;
+}
+.frg-header-wap .head-intro p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 3.6px;
+}
+.frg-header-wap .head-intro .frg-header-btn{
+	margin-bottom: 60px;
+    margin-top: 95px;
+}
+.frg-header-wap .head-intro .frg-header-btn a{
+	margin: 0 38px;
+    position: relative;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.frg-header-wap .head-intro .frg-header-btn a:before{
+	content: "";
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+
+}
+.frg-header-wap .head-intro .frg-header-btn a.photo:before{
+    background: url("../img/photoshop-btn-hover.png") no-repeat;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.frg-header-wap .head-intro .frg-header-btn a.sketch:before{
+    background: url("../img/sketch-btn-hover.png") no-repeat;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.frg-header-wap .head-intro .frg-header-btn a:hover:before{
+	opacity: 1;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+
+
+.frg-header-wap .head-intro .frg-social a{
+	margin: 0 6px;	
+}
+.frg-header-wap .head-intro .frg-social a img{
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.frg-header-wap .head-intro .frg-social a img:hover{
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.frg-header-wap .frg-screen{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.frg-ui-wap{
+	background: url("../img/bg-uikit.jpg") no-repeat;
+	text-align: center;
+	padding-top: 128px;
+	background-size: cover;
+}
+.frg-ui-wap .ui-title{
+	margin-bottom: 45px;
+}
+.frg-ui-wap p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #4d4d4d;
+	line-height: 25px;
+}
+.frg-ui-wap .frg-project-wp{
+	padding-top: 45px;
+}
+.frg-ui-wap .frg-iphone{
+	padding-bottom: 62px;
+    padding-top: 125px;
+}
+.frg-ui-wap .frg-project-wp .frg-number-item{
+	text-align: left;
+}
+.frg-ui-wap .frg-project-wp .frg-number-item h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 150px;
+	color: #f3eeee;
+	font-weight: bold;	
+}
+.frg-ui-wap .frg-project-wp .frg-number-item:first-child{
+	padding-left: 0;
+}
+
+.frg-ui-wap .frg-project-wp .frg-number-item:last-child{
+	padding-right: 0;
+}
+.frg-ui-wap .frg-project-wp .frg-number-item img{
+    position: absolute;
+    bottom: 55px;
+}
+
+.frg-features-wap{
+	background: url("../img/bg-features.png") no-repeat center bottom;
+	text-align: center;
+	padding-top: 128px;
+	overflow: hidden;
+}
+.frg-features-wap p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #4d4d4d;
+	line-height: 25px;
+	margin-bottom: 85px;
+}
+.frg-features-wap .frg-features{
+	overflow: hidden;
+}
+.frg-features-wap .frg-features img{
+	margin-bottom: 13px;
+}
+.frg-features-wap .frg-features .frg-features-item:hover img:first-child{
+	transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.frg-features-wap .frg-features-img{
+	margin-top: 28px;
+}
+.frg-features-wap .frg-features-title{
+	margin-bottom: 45px;
+}
+
+.frg-screen-wap{
+	background: url("../img/bg-sreenshots.jpg") no-repeat;
+	text-align: center;
+	display: block;
+	padding-bottom: 81px;
+	background-size: cover;
+}
+.frg-screen-wap h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	letter-spacing: 2.25px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+    margin-top: 120px;
+}
+.frg-screen-wap p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #f7f7f7;
+	line-height: 25px;
+}
+.frg-screen-wap .container{
+	padding: 0;
+}
+.frg-screen-wap .frg-screen-shots{
+	overflow: hidden;
+	margin-top: 65px;
+	margin-left: -10px;
+    margin-right: -28px;
+}
+.frg-screen-wap .frg-screen-shots a{
+	width: 25%;
+	display: block;
+    float: left;
+}
+.frg-screen-wap .frg-screen-shots a img{
+	-webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.frg-screen-wap .frg-screen-shots a:hover img{
+	opacity: 0.4;
+	-webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.footer{
+	height: 690px;
+	background: url("../img/bg-footer.jpg") no-repeat;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	background-size: cover;
+}
+.footer h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	letter-spacing: 2.25px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+    margin-top: 100px;
+}
+.footer p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 25px;
+}
+.footer .frg-footer-btn{
+	margin-top: 88px;
+}
+.footer .frg-footer-btn a{
+	position: relative;
+}
+.footer .frg-footer-btn a:before{
+	content: "";
+    width: 100%;
+    height: 90px;
+    z-index: 999;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
+}
+.footer .frg-footer-btn a:before{
+    background: url("../img/btn-footer-hover.png") no-repeat;
+}
+.footer .frg-footer-btn a:hover:before{
+	opacity: 1;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+
+/*responsive*/
+@media (max-width: 1919px) {
+	.frg-header-wap .frg-screen{
+		text-align: right;
+	}
+	.frg-header-wap .frg-screen img{
+	    width: 80%;
+	}
+}
+@media (max-width: 1500px) {
+	.frg-header-wap .frg-screen img{
+	    width: 75%;
+	}
+}
+@media (max-width: 1365px) {
+	.frg-header-wap .frg-screen img{
+	    width: 55%;
+	}
+}
