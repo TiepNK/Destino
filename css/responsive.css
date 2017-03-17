@@ -1,0 +1,93 @@
+@media (max-width: 1500px){		
+	.frg-header-wap{
+		padding: 20px 0;
+	}
+	.frg-screen-wap,
+	.frg-ui-wap .frg-project-wp .frg-number-item{
+		overflow: hidden;
+	}
+}
+@media (max-width: 1200px){
+	.frg-screen-wap .frg-screen-shots a img{
+		width: 100%;
+	}
+	.frg-ui-wap .frg-iphone img{
+		width: 80%;
+	}
+	.frg-screen-wap .frg-screen-shots {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+}
+@media (max-width: 1024px){
+	.frg-ui-wap .frg-project-wp .frg-number-item h3{
+		font-size: 100px;
+	}
+}
+@media (max-width: 991px){
+	.frg-header-wap .head-intro .frg-header-btn a {
+	    margin: 10px 0;
+	    display: inline-block;
+	}
+	.frg-header-wap .head-intro {
+		position: relative;
+	    z-index: 3;
+	}
+	.frg-header-wap .head-intro .frg-header-btn a img{
+		/*width: 80%;*/
+	}
+	.frg-header-wap {
+	    height: 630px;
+	}
+}
+@media (max-width: 768px){
+	.frg-ui-wap p{
+		font-size: 12px;
+	}
+	.frg-ui-wap .frg-project-wp .frg-number-item{
+		padding: 0;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.frg-ui-wap .frg-project-wp .frg-number-item img {
+	    bottom: 50px;
+	    margin-left: -80px;
+	}
+	.frg-ui-wap .ui-title {
+	    margin-bottom: 12px;
+	    display: inline-block;
+	    overflow: hidden;
+	}
+	.frg-ui-wap .ui-title img{
+		width: 86%;
+	}
+	.frg-features-wap .frg-features-title img{
+		width: 50%;
+	}
+	.frg-features-wap,
+	.frg-ui-wap {
+	    padding-top: 40px;
+	}
+	.frg-screen-wap h2{
+		margin-top: 40px;
+	}
+	.frg-features-wap .frg-features-img img{
+		width: 80%;
+	}
+	.frg-screen-wap h2,
+	.footer h2 {
+	    font-size: 26.51px;
+	}
+	.frg-screen-wap p,
+	.footer p {
+	    font-size: 12px;
+	}
+}
+@media (max-width: 480px){
+	.frg-header-wap .head-intro .frg-header-logo img{
+		    width: 80%;
+	}
+	.frg-header-wap {
+	    height: 750px;
+	}
+}
