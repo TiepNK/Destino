@@ -49,12 +49,15 @@ body{
 
 }
 .frg-header-wap .head-intro .frg-header-btn a.photo:before{
+	/*display: inline-table;*/
     background: url("../img/photoshop-btn-hover.png") no-repeat;
     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
 .frg-header-wap .head-intro .frg-header-btn a.sketch:before{
+	/*display: inline-table;*/
     background: url("../img/sketch-btn-hover.png") no-repeat;
+    background-size: cover;
     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }

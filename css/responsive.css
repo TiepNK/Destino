@@ -1,3 +1,30 @@
+@media (max-width: 1550px){
+	.frg-header-wap .head-intro {
+	    position: relative;
+	    z-index: 3;
+	}
+	.frg-header-wap .frg-screen{
+		z-index: 1;
+	}
+
+	.frg-header-wap .head-intro .frg-header-btn a {
+	    width: 170px;
+	    margin: 0 3px;
+	}
+	.frg-header-wap .head-intro .frg-header-btn a img{
+		width: 100%;
+	}
+
+	.frg-header-wap .head-intro .frg-header-btn a.photo:before,
+	.frg-header-wap .head-intro .frg-header-btn a:hover:before,
+	.frg-header-wap .head-intro .frg-header-btn a.sketch:before,
+	.frg-header-wap .head-intro .frg-header-btn a.sketch:hover:before,
+	.frg-header-wap .head-intro .frg-header-btn a:before,
+	.frg-header-wap .head-intro .frg-header-btn a:hover:before {
+	    display: inline-table;
+	    background-size: contain;
+	}
+}
 @media (max-width: 1500px){		
 	.frg-header-wap{
 		padding: 20px 0;
@@ -5,6 +32,9 @@
 	.frg-screen-wap,
 	.frg-ui-wap .frg-project-wp .frg-number-item{
 		overflow: hidden;
+	}
+	.frg-header-wap .frg-screen img{
+	    width: 50%;
 	}
 }
 @media (max-width: 1200px){
@@ -25,19 +55,38 @@
 	}
 }
 @media (max-width: 991px){
-	.frg-header-wap .head-intro .frg-header-btn a {
-	    margin: 10px 0;
-	    display: inline-block;
-	}
 	.frg-header-wap .head-intro {
 		position: relative;
 	    z-index: 3;
 	}
+	.frg-header-wap .head-intro .frg-header-btn a {
+	    width: 140px;
+	    margin: 0;
+	}
 	.frg-header-wap .head-intro .frg-header-btn a img{
-		/*width: 80%;*/
+		width: 100%;
+	}
+	.frg-header-wap .head-intro .frg-header-btn a.photo:before,
+	.frg-header-wap .head-intro .frg-header-btn a:hover:before {
+	    display: inline-table;
+	    background-size: contain;
 	}
 	.frg-header-wap {
-	    height: 630px;
+	    height: 750px;
+	}
+	.frg-header-wap .frg-screen img {
+	    width: 40%;
+	}
+
+
+	.frg-header-wap .head-intro .frg-header-logo{
+		display: inline-block;
+	}
+	.frg-header-wap .head-intro .frg-header-logo img{
+		width: 45%;
+	}
+	.frg-header-wap .head-intro p {
+	    font-size: 14px;
 	}
 }
 @media (max-width: 768px){
@@ -82,11 +131,18 @@
 	.footer p {
 	    font-size: 12px;
 	}
+	.frg-header-wap .frg-screen img {
+	    width: 40%;
+	}
+	.frg-header-wap .head-intro .frg-header-btn a {
+	    width: 100px;
+	    margin: 0;
+	}
 }
 @media (max-width: 480px){
-	.frg-header-wap .head-intro .frg-header-logo img{
+	/*.frg-header-wap .head-intro .frg-header-logo img{
 		    width: 80%;
-	}
+	}*/
 	.frg-header-wap {
 	    height: 750px;
 	}
